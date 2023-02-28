@@ -10,7 +10,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class NoteService {
 
-    private final NoteRepository noteRepository;
+//    private final NoteRepository noteRepository;
 
     public List<Note> getNotes() {
         List<Note> notes = new ArrayList<>();
